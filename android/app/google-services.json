@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "696582480473",
+    "project_id": "rabelinho-job-timer",
+    "storage_bucket": "rabelinho-job-timer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696582480473:android:e9c416439d4925266a0748",
+        "android_client_info": {
+          "package_name": "br.com.rabelinho.job_timer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696582480473-qt9vhocuranmhfs6ncs4bbu6bhu1s4ek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiPZR9o9WvbxC5U7-4MxsQEZlwN1ZH0ZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696582480473-qt9vhocuranmhfs6ncs4bbu6bhu1s4ek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
