@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:job_timer/app/core/ui/job_timer_icons.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({Key? key}) : super(key: key);
@@ -24,6 +25,7 @@ class SplashPage extends StatelessWidget {
             onPressed: () {},
             child: const Text('BOTÃO'),
           ),
+          Icon(JobTimerIcons.ok_circled2, size: 50),
         ],
       ),
     );
