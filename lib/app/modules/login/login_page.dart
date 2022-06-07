@@ -16,7 +16,7 @@ class LoginPage extends StatelessWidget {
       listenWhen: (previous, current) => previous.status != current.status,
       listener: (context, state) {
         if (state.status == LoginStatus.failure) {
-          final message = state.errorMessage ?? 'Erro ao realizar login';
+          final message = state.errorMessage ?? 'Error when Login';
           AsukaSnackbar.alert(message).show();
         }
       },
