@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "696582480473-dh2d1k24mnjft70dqn6b5rh6bpbe7h0u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.rabelinho.job_timer",
+            "certificate_hash": "8b9686a382fc646554e877e4162786a10ade05f8"
+          }
+        },
+        {
           "client_id": "696582480473-qt9vhocuranmhfs6ncs4bbu6bhu1s4ek.apps.googleusercontent.com",
           "client_type": 3
         }
