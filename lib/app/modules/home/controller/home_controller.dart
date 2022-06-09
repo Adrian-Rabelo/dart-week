@@ -23,6 +23,7 @@ class HomeController extends Cubit<HomeState> {
     } catch (e, s) {
       log('Erro ao buscar os projetos', error: e, stackTrace: s);
       emit(state.copyWith(status: HomeStatus.failure));
+      
     }
   }
 }
