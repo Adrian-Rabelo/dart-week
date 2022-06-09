@@ -25,7 +25,7 @@ class ProjectServiceImpl implements ProjectService {
   }
 
   @override
-  Future<List<ProjectModel>> findByStatys(ProjectStatus status) async {
+  Future<List<ProjectModel>> findByStatus(ProjectStatus status) async {
     final projects = await _projectRepository.findByStatus(status);
 
     return projects.map(ProjectModel.fromEntity).toList();
