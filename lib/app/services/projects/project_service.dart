@@ -9,4 +9,5 @@ abstract class ProjectService {
 
   Future<ProjectModel> findById(int projectId);
   Future<ProjectModel> addTask(int projectId, ProjectTaskModel task);
+  Future<void> finish(int projectId);
 }

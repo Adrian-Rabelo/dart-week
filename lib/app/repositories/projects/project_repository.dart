@@ -8,4 +8,5 @@ abstract class ProjectRepository {
   Future<Project> findById(int projectId);
 
   Future<Project> addTask(int projectId, ProjectTask projectTask);
+  Future<void> finish(int projectId);
 }

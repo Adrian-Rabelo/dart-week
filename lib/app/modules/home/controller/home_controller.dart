@@ -41,4 +41,6 @@ class HomeController extends Cubit<HomeState> {
       log('Erro ao filtrar projetos', error: e, stackTrace: s);
     }
   }
+
+  void updateList() => filter(ProjectStatus.em_andamento);
 }

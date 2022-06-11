@@ -40,7 +40,7 @@ class ProjectDetailAppbar extends SliverAppBar {
                           Visibility(
                             visible:
                                 projectModel.status != ProjectStatus.finalizado,
-                            replacement: const Text('Projeto Finalizaso'),
+                            replacement: const Text('Projeto Finalizado'),
                             child: _NewTasks(
                               projectModel: projectModel,
                             ),
